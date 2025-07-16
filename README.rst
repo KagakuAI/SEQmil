@@ -17,16 +17,20 @@ Key Features
 Installation
 ------------
 
-Set up a clean environment and install the package:
+``SEQmil`` can be installed using conda/mamba package managers.
 
 .. code-block:: bash
 
-   # Create and activate a new environment
-   conda create -n seqmil python=3.9 -y
-   conda activate seqmil
+    git clone https://github.com/KagakuAI/SEQmil.git
+    conda env create -f SEQmil/conda/seqmil_linux.yml
+    conda activate seqmil
 
-   # Install SEQmil from GitHub
-   pip install git+https://github.com/KagakuAI/SEQmil.git
+The installed ``SEQmil`` environment can then be added to the Jupyter platform:
+
+.. code-block:: bash
+
+    conda install ipykernel
+    python -m ipykernel install --user --name seqmil --display-name "seqmil"
 
 
 Quick start
