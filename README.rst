@@ -1,4 +1,4 @@
-SEQmil: Biomolecular multi-instance machine learning
+SEQmil: Biomolecular Multi-Instance Machine Learning
 ====================================================================
 
 ``SEQmil`` is a Python package for applying **Multi-Instance Learning (MIL)** to biological sequences such as **RNA, DNA, and proteins**.
