@@ -10,7 +10,7 @@ Key Features
 ------------
 
 - 🧬 MIL support for biological sequences (RNA, DNA, Proteins)
-- 🧩 Instance construction using sliding windows or domain-based segmentation
+- 🧩 Instance construction using sliding windows
 - 🛠️ Compatible with scikit-learn, PyTorch, and standard ML tools
 - 📊 Integrated tutorial and example workflow
 
